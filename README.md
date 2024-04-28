@@ -19,8 +19,8 @@ This repository contains code for a deep learning model that can detect yoga pos
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/your_repo.git
-   cd your_repo
+   git clone [https://github.com/your_username/your_repo.git]https://github.com/dharaneeshgunturu2003/Yoga-Pose-Detection.git)
+   cd Yoga-pose-Detection
    ```
 
 2. Install the required libraries:
@@ -28,15 +28,12 @@ This repository contains code for a deep learning model that can detect yoga pos
    pip install -r requirements.txt
    ```
 
-3. Download the pre-trained weights for the model (if available) and place them in the `weights/` directory.
-
-4. Run the inference script on your input image:
-   ```bash
-   python predict_pose.py --image path/to/your/image.jpg
-   ```
-
 ## Model Architecture
-Describe the architecture of your deep learning model here, including any pre-processing steps, the network architecture, and post-processing steps.
+The deep learning model architecture consists of several convolutional and fully connected layers:
+
+Convolutional layers with batch normalization and max-pooling
+Fully connected layers with dropout for regularization
+Softmax activation for multi-class classification
 
 ## Training
 If you have information on how the model was trained, including details about the dataset, training parameters, and performance metrics, include it here.
