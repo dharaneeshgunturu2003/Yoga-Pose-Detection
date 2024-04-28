@@ -37,14 +37,16 @@ The deep learning model architecture consists of several convolutional and fully
 
 ## Training
 **Data Preprocessing:**
-   1.Images are resized to (224, 224) pixels and normalized.
-   2.Data augmentation techniques such as rotation, shifting, zooming, and flipping are applied to the training images.
+   1. Images are resized to (224, 224) pixels and normalized.
+   2. Data augmentation techniques such as rotation, shifting, zooming, and flipping are applied to the training images.
+   
 **Model Training:**
-   1.The model is trained using the Adam optimizer with a decaying learning rate schedule.
-   2.Categorical cross-entropy is used as the loss function.
+   1. The model is trained using the Adam optimizer with a decaying learning rate schedule.
+   2. Categorical cross-entropy is used as the loss function.
+   
 **Callbacks:**
-   1.Early stopping, learning rate reduction, and model checkpointing callbacks are used during training.
+   1. Early stopping, learning rate reduction, and model checkpointing callbacks are used during training.
 
 ## Results
-Showcase some example results of the model's predictions on test images along with ground truth annotations (if available).
+![Sample result.png]({{site.baseurl}}/Sample result.png)
 
