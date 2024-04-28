@@ -31,9 +31,9 @@ This repository contains code for a deep learning model that can detect yoga pos
 ## Model Architecture
 The deep learning model architecture consists of several convolutional and fully connected layers:
 
--Convolutional layers with batch normalization and max-pooling
--Fully connected layers with dropout for regularization
--Softmax activation for multi-class classification
+- Convolutional layers with batch normalization and max-pooling
+- Fully connected layers with dropout for regularization
+- Softmax activation for multi-class classification
 
 ## Training
 **Data Preprocessing:**
