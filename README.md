@@ -19,7 +19,7 @@ This repository contains code for a deep learning model that can detect yoga pos
 ## Usage
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your_username/your_repo.git]https://github.com/dharaneeshgunturu2003/Yoga-Pose-Detection.git)
+   git clone https://github.com/dharaneeshgunturu2003/Yoga-Pose-Detection.git
    cd Yoga-pose-Detection
    ```
 
