@@ -48,5 +48,5 @@ The deep learning model architecture consists of several convolutional and fully
    1. Early stopping, learning rate reduction, and model checkpointing callbacks are used during training.
 
 ## Results
-![Sample result.png]({{site.baseurl}}/Sample result.png)
+![image](https://github.com/dharaneeshgunturu2003/Yoga-Pose-Detection/assets/85329659/3d96d37a-3a14-4d37-9d28-e7e770d98152)
 
